@@ -1,4 +1,5 @@
 import React from 'react';
+import BirdImage from '../images/bird.png';
 
 const Bird = () =>{
     return(
@@ -6,9 +7,9 @@ const Bird = () =>{
             position: 'absolute',
             top: 250,
             left: 150,
-            width: 40,
-            height: 40,
-            backgroundColor: 'blue',
+            width: 38,
+            height: 26,
+            background: `url(${BirdImage})`,
         }}>
 
         </div>

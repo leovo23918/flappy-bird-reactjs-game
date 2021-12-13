@@ -1,4 +1,6 @@
 import React from 'react';
+import BotPipeImage from '../images/pipe-bottom.png';
+import TopPipeImage from '../images/pipe-top.png';
 
 const Pipe = ()=>{
     return(
@@ -9,7 +11,8 @@ const Pipe = ()=>{
                 left: 150,
                 width: 50,
                 height: 200,
-                backgroundColor: 'green',
+                background: `url(${TopPipeImage})`,
+                backgroundPosition: 'bottom',
             }}>
 
             </div>
@@ -19,7 +22,7 @@ const Pipe = ()=>{
                 top: 300, //cot tren 200 cong khoang giua 100 la 300
                 width: 50,
                 height: 200,
-                backgroundColor: 'green',
+                background: `url(${BotPipeImage})`,
             }}>
 
             </div>
